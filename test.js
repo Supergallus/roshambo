@@ -6,3 +6,4 @@ test(function (t) {
 	t.assert(roshambo.play('rock'));
 	t.end();
 });
+
