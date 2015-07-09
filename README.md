@@ -1,0 +1,2 @@
+# roshambo
+npm package roshambo
