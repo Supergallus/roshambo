@@ -1,0 +1,41 @@
+{
+  "name": "roshambo",
+  "version": "1.0.2",
+  "description": "Play rock paper scissors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gallus/roshambo"
+  },
+  "bin": {
+    "roshambo": "cli.js"
+  },
+  "author": "Clément MAGNY <magny.clement@gmail.com> (http://www.leyams.net)",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "superheroes.json"
+  ],
+  "keywords": [
+    "roshambo",
+    "rock",
+    "paper",
+    "scissors",
+    "game"
+  ],
+  "dependencies": {
+    "ava": "0.0.4"
+  },
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/gallus/roshambo/issues"
+  },
+  "homepage": "https://github.com/gallus/roshambo",
+  "main": "index.js"
+}
